@@ -16,9 +16,11 @@ Done! You now have a block.
 Vanilla crafting table recipes should just be added through the crafting table. Magmatic Workbench recipes should be added like this:
 
 - Plan out your recipe (items, blueprint)
-- If you're making a new blueprint, add a folder in `craft` named after it
-- Add a `main.mcfunction` to the folder, call `engine:craft/failed` at the end of it
-- If your blueprint exists, add a new function in `craft/<blueprint name>`
-- Set slot 16 to your result, call `engine:craft/done` at the end
+- If you're making a new blueprint, add a folder in `crafts` named after it
+- Add a `main.mcfunction` to the folder, call `engine:crafts/failed` at the end of it
+- If your blueprint exists, add a new function in `crafts/<blueprint name>`
+- Set slot 16 to your result, call `engine:crafts/done` at the end
 - Reference your function in the blueprint's `main.mcfunction` with a return before the fail call
 - In `main`, add all of the logic for checking the crafting pattern
+
+Done! Your recipe is added
