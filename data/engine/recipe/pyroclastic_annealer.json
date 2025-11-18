@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAA",
+    "IAI",
+    "IOI"
+  ],
+  "key": {
+    "A": "minecraft:blaze_powder",
+    "I": "iron_ingot",
+    "O": "#minecraft:anvil"
+  },
+  "result": {
+  "components": {
+    "minecraft:custom_data": {
+      "engine": "pyroclastic_annealer"
+    },
+    "minecraft:entity_data": {
+      "id": "minecraft:armor_stand",
+      "NoGravity": true,
+      "Tags": ["engine.blocks.block2", "engine.blocks.all"],
+      "Invisible": true
+    },
+    "minecraft:item_model": "minecraft:damaged_anvil",
+    "minecraft:item_name": {
+      "text": "Pyroclastic Annealer",
+      "italic": false
+    },
+    "minecraft:lore": [
+      {
+        "text": "Repairs and crafts items using lava as fuel",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "Consumes lava above and below to charge itself",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "[!] Item doesn't retain the lava!",
+        "color": "red",
+        "italic": false
+      },
+      "",
+      {
+        "text": "Engine",
+        "color": "blue",
+        "italic": true
+      }
+    ],
+    "max_stack_size": 64,
+    "tooltip_display": {
+      "hidden_components": ["attribute_modifiers"]
+    }
+  },
+  "count": 1,
+  "id": "minecraft:bat_spawn_egg"
+},
+  "show_notification": true
+}

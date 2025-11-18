@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ICI",
+    "IAI",
+    "IOI"
+  ],
+  "key": {
+    "A": ["minecraft:blast_furnace"],
+    "I": "iron_ingot",
+    "O": "iron_trapdoor",
+    "C": "hopper"
+  },
+  "result": {
+  "components": {
+    "minecraft:custom_data": {
+      "engine": "filtrating_transposer"
+    },
+    "minecraft:entity_data": {
+      "id": "minecraft:armor_stand",
+      "NoGravity": true,
+      "Tags": ["engine.blocks.block1", "engine.blocks.all"],
+      "Invisible": true
+    },
+    "minecraft:item_model": "minecraft:blast_furnace",
+    "minecraft:item_name": {
+      "text": "Filtrating Transposer",
+      "italic": false
+    },
+    "minecraft:lore": [
+      {
+        "text": "Transports lava from cauldrons above into blocks below",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "Requires burnable fuel inside to be active",
+        "color": "gray",
+        "italic": false
+      },
+      "",
+      {
+        "text": "Engine",
+        "color": "blue",
+        "italic": true
+      }
+    ],
+    "max_stack_size": 64,
+    "tooltip_display": {
+      "hidden_components": ["attribute_modifiers"]
+    }
+  },
+  "count": 1,
+  "id": "minecraft:bat_spawn_egg"
+},
+  "show_notification": true
+}

@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=engine.blocks.block5] at @s if score @s engine.lava matches 32.. run function engine:blocks/block/block5/soon

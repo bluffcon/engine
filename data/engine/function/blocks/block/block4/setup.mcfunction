@@ -1,0 +1,9 @@
+summon marker ~ ~0.5 ~ {Tags:["engine.blocks.all","engine.blocks.block4","engine"]}
+scoreboard players add @n[type=marker,distance=..0.55] engine.lava 0
+
+setblock ~ ~ ~ hopper[facing=down]{CustomName:{"text":"Schematic Sequencer"}} keep
+
+summon block_display ~ ~0.5 ~ {Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:glass",Properties:{}},transformation:[1.1f,0f,0f,-0.55f,0f,1.1f,0f,0.45f,0f,0f,1.1f,-0.55f,0f,0f,0f,1f],brightness:{sky:15,block:15},Tags:[engine,engine.blocks.block4,engine.blocks.models]},{id:"minecraft:item_display",item:{id:"minecraft:waxed_oxidized_chiseled_copper"},item_display:"ground",transformation:[-1f,0f,0f,0f,0f,1f,0f,0.25f,0f,0f,-1f,0f,0f,0f,0f,1f],brightness:{sky:15,block:15},Tags:[engine,engine.blocks.block4,engine.blocks.models]},{id:"minecraft:block_display",block_state:{Name:"minecraft:hopper",Properties:{facing:"down"}},transformation:[0.9f,0f,0f,-0.45f,0f,-0.5f,0f,-0.0625f,0f,0f,-0.9f,0.45f,0f,0f,0f,1f],brightness:{sky:15,block:15},Tags:[engine,engine.blocks.block4,engine.blocks.models]},{id:"minecraft:block_display",block_state:{Name:"minecraft:redstone_wire",Properties:{east:"side",north:"side",south:"side",west:"side"}},transformation:[1f,0f,0f,-0.5f,0f,1.1f,0f,0.1875f,0f,0f,1f,-0.5f,0f,0f,0f,1f],brightness:{sky:15,block:15},Tags:["engine.blocks.block4.redstone",engine,engine.blocks.block4,engine.blocks.models]},{id:"minecraft:block_display",block_state:{Name:"minecraft:iron_bars",Properties:{west:"false",east:"false",north:"true",south:"true"}},transformation:[0f,-0.9f,0f,0.45f,1f,0f,0f,-0.6875f,0f,0f,0.9f,-0.45f,0f,0f,0f,1f],brightness:{sky:15,block:15},Tags:[engine,engine.blocks.block4,engine.blocks.models]}]}
+
+playsound entity.blaze.death block @a ~ ~ ~ 0.7
+playsound block.stone.place block @a ~ ~ ~ 0.9

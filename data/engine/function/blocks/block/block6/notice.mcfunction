@@ -1,0 +1,2 @@
+item replace entity @p[distance=..10] player.cursor with minecraft:air 1
+item replace block ~ ~ ~ container.23 with knowledge_book[item_model="barrier",custom_data={engine:"void"},item_name={text:"Blueprint Missing!",color:red},max_stack_size=64,rarity=common,lore=[{"text":"Add a Blueprint item to craft",italic:false,color:gray}, {"text":"different groups of items!",italic:false,color:gray}]] 1

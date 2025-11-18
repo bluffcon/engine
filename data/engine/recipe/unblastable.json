@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:knowledge_book",
+  "result": {
+    "id": "minecraft:knowledge_book",
+    "components": {
+      "minecraft:item_name": {"text":" "},
+      "item_model": "minecraft:air"
+    }
+  },
+  "experience": 0,
+  "cookingtime": 32766
+}
