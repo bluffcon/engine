@@ -1,1 +1,0 @@
-summon minecart ~ ~ ~ {Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:lava_cauldron",Properties:{}},transformation:[0.65f,0f,0f,-0.3125f,0f,0.65f,0f,0.1f,0f,0f,0.65f,-0.3125f,0f,0f,0f,1f],brightness:{sky:15,block:15},Tags:["engine","engine.blocks.models","engine.blocks.lava_minecart","engine.blocks.lava_minecart.inside"]}]}
