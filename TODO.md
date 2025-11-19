@@ -1,3 +1,2 @@
-- add fallback crafter ticking if its merely open
-- add checks that replace outline only if the slot entry doesnt exist
+
 - custom behavior for the wham button that makes it still clear but is summoned as an entity at the players feet

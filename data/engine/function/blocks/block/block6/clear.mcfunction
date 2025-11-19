@@ -1,1 +1,2 @@
-setblock ~ ~ ~ barrel[facing=up]{Items:[], CustomName:"Magmatic Workbench",lock:{components:{"custom_data":{engine:"hammer"}}}}
+#execute if items block ~ ~ ~ container.* knowledge_book run setblock ~ ~ ~ barrel[facing=up]{Items:[], CustomName:"Magmatic Workbench",lock:{components:{"custom_data":{engine:"hammer"}}}}
+#execute unless items block ~ ~ ~ container.* knowledge_book run setblock ~ ~ ~ air

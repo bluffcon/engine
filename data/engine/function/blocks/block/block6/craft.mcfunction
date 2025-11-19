@@ -11,5 +11,6 @@ data modify storage engine:crafting 7 set from block ~ ~ ~ Items[{Slot:19b}]
 data modify storage engine:crafting 8 set from block ~ ~ ~ Items[{Slot:20b}]
 data modify storage engine:crafting 9 set from block ~ ~ ~ Items[{Slot:21b}]
 data modify storage engine:crafting blueprint set from block ~ ~ ~ Items[{Slot:23b}]
+data modify storage engine:crafting output set from block ~ ~ ~ Items[{Slot:16b}]
 
 function engine:crafts/main

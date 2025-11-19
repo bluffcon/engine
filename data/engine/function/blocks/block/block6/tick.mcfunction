@@ -1,5 +1,10 @@
 execute unless block ~ ~ ~ barrel run setblock ~ ~ ~ air destroy
 
+execute if block ~ ~1 ~ lava[level=0] run scoreboard players add @s engine.lava 16
+execute if block ~ ~1 ~ lava[level=0] run setblock ~ ~1 ~ air
+execute if block ~ ~-1 ~ lava[level=0] run scoreboard players add @s engine.lava 16
+execute if block ~ ~-1 ~ lava[level=0] run setblock ~ ~-1 ~ air
+
 execute if entity @p[distance=..10,predicate=engine:hammer] run return run function engine:blocks/block/block6/init
 execute if block ~ ~ ~ barrel[open=true] run return run function engine:blocks/block/block6/init
 
