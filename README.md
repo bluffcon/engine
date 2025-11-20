@@ -14,5 +14,10 @@ Feature requests are always open and very welcome!
 - Standard modding items like wrenches and hammers
 - **No Resourcepack required!**
 
+## Getting Started
+Craft a Lava-leaking Guidebook a single book and lava bucket. The bucket will be consumed.
+
+The guide is in no way required for progression, but if you're only getting started it's recommended for some beginner guidance.
+
 ## Join the Discord!
 https://discord.gg/zkjyuGcguA
