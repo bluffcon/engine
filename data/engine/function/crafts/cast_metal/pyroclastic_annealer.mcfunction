@@ -1,0 +1,7 @@
+execute if data storage engine:crafting output{id:"air"} run item replace block ~ ~ ~ container.16 with minecraft:bat_spawn_egg[item_name={"text":"Pyroclastic Annealer","italic":false},item_model="minecraft:damaged_anvil",lore=[{"text":"Repairs and crafts items using lava as fuel","color":"gold","italic":false},{"text":"Consumes lava above and below to charge itself","color":"gray","italic":false},{"text":"[!] Item doesn't retain the lava!","color":"red","italic":false},"",{"text":"Engine","color":"blue","italic":true}],custom_data={engine:"pyroclastic_annealer"},max_stack_size=64,entity_data={id:"minecraft:armor_stand",NoGravity:1b,Tags:["engine.blocks.block2","engine.blocks.all"],Invisible:1b}]
+
+execute unless data storage engine:crafting output{id:"air"} run give @p minecraft:bat_spawn_egg[item_name={"text":"Pyroclastic Annealer","italic":false},item_model="minecraft:damaged_anvil",lore=[{"text":"Repairs and crafts items using lava as fuel","color":"gold","italic":false},{"text":"Consumes lava above and below to charge itself","color":"gray","italic":false},{"text":"[!] Item doesn't retain the lava!","color":"red","italic":false},"",{"text":"Engine","color":"blue","italic":true}],custom_data={engine:"pyroclastic_annealer"},max_stack_size=64,entity_data={id:"minecraft:armor_stand",NoGravity:1b,Tags:["engine.blocks.block2","engine.blocks.all"],Invisible:1b}]
+
+scoreboard players remove @s engine.lava 16
+
+function engine:crafts/done
