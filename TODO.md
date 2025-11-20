@@ -1,2 +1,7 @@
 
-- custom behavior for the wham button that makes it still clear but is summoned as an entity at the players feet
+- custom behavior for the wham button that makes it still clear but is summoned as an entity at the players feet when they put stuff there accidentally 
+- KILL EVERYONE
+- add guidebook recipe
+- write guidebook for basic stuff
+- add a mechanism for updating the guidebook editions when putting it in the workbench so the user is always up to date
+- make the guidebook link to pages with recipes for items and explanations with back buttons etc
