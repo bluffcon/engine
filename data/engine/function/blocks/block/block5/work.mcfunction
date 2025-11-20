@@ -1,5 +1,2 @@
-scoreboard players remove @s engine.lava 32
-summon minecraft:fireball ~ ~-1 ~ {ExplosionPower:4,Motion:[0.0,-1.0,0.0]}
-particle flash{color:2694449} ~ ~ ~ 0 0 0 0 3 force
-setblock ~ ~ ~ respawn_anchor[charges=0] replace
-playsound block.beacon.deactivate block @a ~ ~ ~ 0.5 1
+
+execute as @e[distance=..10,type=end_crystal,limit=30] at @n[type=marker,tag=engine.blocks.block5] as @n[type=marker,tag=engine.blocks.block5] run scoreboard players add @s engine.block5 1

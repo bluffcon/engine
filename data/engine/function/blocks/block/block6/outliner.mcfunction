@@ -1,5 +1,5 @@
-execute unless items block ~ ~ ~ container.14 * run item replace block ~ ~ ~ container.14 with knowledge_book[item_model="spyglass",custom_data={engine:"void"},item_name={text:"WHAM!",color:gold},max_stack_size=64,rarity=common,lore=[{"text":"Click to craft!",italic:false,color:gray}]] 1
-
+execute if items block ~ ~ ~ container.14 * unless items block ~ ~ ~ container.14 knowledge_book run function engine:blocks/block/block6/spyglassfix with block ~ ~ ~ Items[{Slot:14b}]
+item replace block ~ ~ ~ container.14 with knowledge_book[item_model="spyglass",custom_data={engine:"void"},item_name={text:"WHAM!",color:gold},max_stack_size=64,rarity=common,lore=[{"text":"Click to craft!",italic:false,color:gray}]] 1
 
 execute unless items block ~ ~ ~ container.0 * run item replace block ~ ~ ~ container.0 with knowledge_book[item_model="black_stained_glass_pane",item_name="",custom_data={engine:"void"},max_stack_size=64,rarity=common] 1
 execute unless items block ~ ~ ~ container.9 * run item replace block ~ ~ ~ container.9 with knowledge_book[item_model="black_stained_glass_pane",item_name="",custom_data={engine:"void"},max_stack_size=64,rarity=common] 1

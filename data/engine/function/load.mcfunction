@@ -15,4 +15,6 @@ scoreboard objectives add engine.randomtick dummy
 scoreboard objectives add engine.pouch dummy
 
 scoreboard objectives add engine.block4.success dummy
+scoreboard objectives add engine.block5 dummy
+scoreboard objectives add engine.block5.failcount dummy
 scoreboard objectives add engine.block6.i dummy
