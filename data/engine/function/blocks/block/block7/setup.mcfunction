@@ -1,0 +1,10 @@
+summon marker ~ ~0.5 ~ {Tags:["engine.blocks.all","engine.blocks.block7","engine"]}
+
+scoreboard players add @n[type=marker,distance=..0.55] engine.lava 0
+setblock ~ ~ ~ waxed_copper_grate
+
+summon block_display ~ ~0.5 ~ {Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:fire",Properties:{up:"false",west:"false",south:"false",north:"false",east:"false"}},transformation:[0.9f,0f,0f,-0.45f,0f,0.9f,0f,-0.49f,0f,0f,0.9f,-0.45f,0f,0f,0f,1f],brightness:{sky:15,block:15},Tags:[engine,engine.blocks.block7,engine.blocks.models]},{id:"minecraft:block_display",block_state:{Name:"minecraft:copper_trapdoor",Properties:{facing:"east",half:"bottom",open:"false"}},transformation:[1.05f,0f,0f,-0.525f,0f,1f,0f,-0.5625f,0f,0f,1.05f,-0.525f,0f,0f,0f,1f],brightness:{sky:15,block:3},Tags:[engine,engine.blocks.block7,engine.blocks.models]},{id:"minecraft:block_display",block_state:{Name:"minecraft:copper_trapdoor",Properties:{facing:"east",half:"bottom",open:"false"}},transformation:[1.05f,0f,0f,-0.525f,0f,1f,0f,-0.3125f,0f,0f,1.05f,-0.525f,0f,0f,0f,1f],brightness:{sky:15,block:3},Tags:[engine,engine.blocks.block7,engine.blocks.models]},{id:"minecraft:block_display",block_state:{Name:"minecraft:copper_trapdoor",Properties:{facing:"east",half:"bottom",open:"false"}},transformation:[1.05f,0f,0f,-0.525f,0f,1f,0f,-0.0625f,0f,0f,1.05f,-0.525f,0f,0f,0f,1f],brightness:{sky:15,block:3},Tags:[engine,engine.blocks.block7,engine.blocks.models]},{id:"minecraft:block_display",block_state:{Name:"minecraft:copper_trapdoor",Properties:{facing:"east",half:"bottom",open:"false"}},transformation:[1.05f,0f,0f,-0.525f,0f,1f,0f,0.1875f,0f,0f,1.05f,-0.525f,0f,0f,0f,1f],brightness:{sky:15,block:3},Tags:[engine,engine.blocks.block7,engine.blocks.models]},{id:"minecraft:block_display",block_state:{Name:"minecraft:copper_trapdoor",Properties:{facing:"east",half:"bottom",open:"false"}},transformation:[1.05f,0f,0f,-0.525f,0f,1f,0f,0.4375f,0f,0f,1.05f,-0.525f,0f,0f,0f,1f],brightness:{sky:15,block:3},Tags:[engine,engine.blocks.block7,engine.blocks.models]}]}
+
+playsound block.copper.place block @a ~ ~ ~ 0.3
+playsound entity.blaze.hurt block @a ~ ~ ~ 0.9
+

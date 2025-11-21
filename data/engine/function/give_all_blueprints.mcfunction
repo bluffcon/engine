@@ -1,3 +1,5 @@
+# CAST METAL
+
 give @s paper[custom_data={enginebp:"cast_metal"},item_name={"text":"Blueprint: Cast Metal",color:"#59a9ff"},item_model="minecraft:bordure_indented_banner_pattern",lore=[ \
  {text:"\"Instructions on how to cast metals using just",color:gray,italic:false}, \ 
  {text:"sand and a pair of gloves. Safety guide and",color:gray,italic:false}, \
@@ -28,3 +30,39 @@ give @s paper[custom_data={enginebp:"cast_metal"},item_name={"text":"Blueprint: 
    ] \
  } \
 ], rarity=common,max_stack_size=1,max_damage=64,damage=0]
+
+
+
+
+# MECHANICAL ASSEMBLY
+
+give @s paper[custom_data={enginebp:"mechanical_assembly"},item_name={"text":"Blueprint: Mechanical Assembly",color:"#59a9ff"},item_model="minecraft:flower_banner_pattern",lore=[ \
+ {text:"\"In-Depth guide on how to assemble the simplest",color:gray,italic:false}, \ 
+ {text:"gears and coils together. This is difficult, but",color:gray,italic:false}, \
+ {text:"the only difficuly lies in practice.\"",color:gray,italic:false}, \
+ "", \
+ { \
+   text:"", \
+   extra:[ \
+     {sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_bars",color:white}, \
+     "    ", \
+     {sprite:"block/iron_block",color:white}," ",{atlas:blocks,sprite:"block/magma",color:white}," ",{atlas:blocks,sprite:"block/iron_block",color:white} \
+   ] \
+ }, \
+ { \
+   text:"", \
+   extra:[ \
+     {sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_block",color:white}," ",{sprite:"block/copper_bars",color:white}, \
+     "    ", \
+     {sprite:"item/iron_ingot",color:white}," ",{atlas:blocks,sprite:"block/iron_bars",color:white}," ",{atlas:blocks,sprite:"item/iron_ingot",color:white} \
+   ] \
+ }, \
+ { \
+   text:"", \
+   extra:[ \
+     {sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_bars",color:white}, \
+     "    ", \
+     "  "," ",{atlas:blocks,sprite:"block/iron_block",color:white}," ","  " \
+   ] \
+ } \
+],rarity=common,max_stack_size=1,max_damage=64,damage=0]
