@@ -53,7 +53,7 @@ DONE
 - when power is input from the backside, replaces air with redstone block randomly in 3 sides
 - rotatable
 - sides can be disabled by putting anything but air there
-
+ 
 
 - block14
 - blueprint station
