@@ -15,7 +15,7 @@ This datapack introduces several new blocks, new choices for automation, utility
 - Redstone Utility heavy, tries to be as extensive in its features as possible
 - **No Resourcepack required!**
 - **Heavily Optimized!**
-- 
+  
 More is yet to come in the future! If you have an idea, then share it!
 
 ## Getting Started
