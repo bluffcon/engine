@@ -5,8 +5,7 @@
 
 This datapack introduces several new blocks, new choices for automation, utility tools, crafting items, and more!
 
-`For Java Minecraft 1.21.10+`
-`Currently in Alpha!`
+`⭐ For Java Minecraft 1.21.10+` `🔴 Currently in Alpha!`
 
 ## Features
 - Machines that actively consume lava to work
@@ -20,6 +19,7 @@ More is yet to come in the future! If you have an idea, then share it!
 
 ## Getting Started
 Right now Engine isn't playable in survival
+
 Join the Discord for future updates!
 
 ## Join the Discord!
