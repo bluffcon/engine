@@ -1,3 +1,5 @@
+execute if entity @e[type=marker,tag=engine.blocks.block5,distance=..11] run return run function engine:blocks/destroy
+
 summon marker ~ ~0.5 ~ {Tags:["engine.blocks.all","engine.blocks.block5","engine"]}
 summon marker ~-0.5 ~-2 ~-0.5 {Tags:["engine.blocks.block5.helper","engine"]}
 
@@ -10,3 +12,4 @@ summon block_display ~ ~0.5 ~ {Passengers:[{id:"minecraft:block_display",block_s
 playsound entity.ender_dragon.growl block @a ~ ~ ~ 0.3
 playsound block.sculk_catalyst.bloom block @a ~ ~ ~ 0.9
 playsound entity.generic.explode block @a ~ ~ ~ 0.9
+
