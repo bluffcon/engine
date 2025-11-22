@@ -6,3 +6,4 @@ particle lava ~ ~-2.5 ~ 0 0 0 1 50 force
 summon fireball ~ ~-2.5 ~ {Tags:[engine.blocks.block5.fireball,engine],Motion:[0,0,0],ExplosionPower:0,HasVisualFire:false,Fire:0}
 
 function engine:blocks/block/block5/vibration with entity @n[distance=..3,type=marker,tag=engine.blocks.block5.helper]
+execute at @e[type=end_crystal,distance=..10] run particle portal ~ ~ ~ 0 0 0 2 100
