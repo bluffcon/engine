@@ -10,4 +10,4 @@ execute if block ~ ~ ~ waxed_copper_bulb[lit=true] as @e[distance=..0.2,tag=engi
 execute if block ~ ~ ~ waxed_copper_bulb[lit=false] as @e[distance=..0.2,tag=engine.blocks.models] run data modify entity @s brightness set value {sky:15,block:3}
 
 
-execute unless block ~ ~ ~ waxed_copper_bulb run setblock ~ ~ ~ air destroy
+execute unless block ~ ~ ~ waxed_copper_bulb run setblock ~ ~ ~ air replace

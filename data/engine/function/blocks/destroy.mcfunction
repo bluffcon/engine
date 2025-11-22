@@ -1,4 +1,4 @@
-kill @n[distance=..1,type=item]
+
 
 playsound entity.iron_golem.damage block @a ~ ~ ~ 0.6 1
 

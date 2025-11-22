@@ -1,4 +1,4 @@
-execute unless block ~ ~ ~ barrel run setblock ~ ~ ~ air destroy
+execute unless block ~ ~ ~ barrel run setblock ~ ~ ~ air replace
 
 execute if block ~ ~1 ~ lava[level=0] run scoreboard players add @s engine.lava 16
 execute if block ~ ~1 ~ lava[level=0] run setblock ~ ~1 ~ air

@@ -6,7 +6,7 @@ execute if block ~ ~-1 ~ lava[level=0] run setblock ~ ~-1 ~ air
 title @p[distance=..2] actionbar {text:"Schematic Sequencer ",color:red,extra:[{text:"· ",color:white},{text:"Lava: ",color:gold},{"score":{objective:engine.lava,name:"@s"},color:red,bold:true}]}
 
 
-execute unless block ~ ~ ~ hopper[facing=down] run setblock ~ ~ ~ air destroy
+execute unless block ~ ~ ~ hopper[facing=down] run setblock ~ ~ ~ air replace
 scoreboard players set @s engine.block4.success 0
 
 execute if block ~ ~ ~ hopper[enabled=false] run data modify entity @n[distance=..2,type=block_display,tag=engine.blocks.block4.redstone] block_state set value {Name:"redstone_wire",Properties:{east:"side",north:"side",south:"side",west:"side",power:"15"}}

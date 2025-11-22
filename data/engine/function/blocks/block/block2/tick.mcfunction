@@ -9,4 +9,4 @@ title @p[distance=..2] actionbar {text:"Pyroclastic Annealer ",color:red,extra:[
 particle smoke ~ ~0.5 ~ 0.1 0.1 0.1 0.02 2 force
 
 
-execute unless block ~ ~ ~ damaged_anvil run setblock ~ ~ ~ air destroy
+execute unless block ~ ~ ~ damaged_anvil run setblock ~ ~ ~ air replace

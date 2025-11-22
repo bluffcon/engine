@@ -1,4 +1,4 @@
-execute unless block ~ ~ ~ blast_furnace run setblock ~ ~ ~ air destroy
+execute unless block ~ ~ ~ blast_furnace run setblock ~ ~ ~ air replace
 
 data modify block ~ ~ ~ Items[{Slot:0b}] set value {Slot:0b,id:"minecraft:knowledge_book",components:{custom_data:{engine:void},item_model:"minecraft:air",item_name:" "}}
 

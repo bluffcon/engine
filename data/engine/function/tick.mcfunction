@@ -1,7 +1,7 @@
 execute as @e[type=armor_stand,tag=engine.blocks.all] at @s run function engine:blocks/generic_block_setup
 execute as @e[type=armor_stand,tag=engine.blocks.lava_minecart] at @s run function engine:blocks/minecart/spawn
 
-execute as @e[type=marker,tag=engine.blocks.all] at @s if block ~ ~1 ~ stone run setblock ~ ~ ~ air destroy
+execute as @e[type=marker,tag=engine.blocks.all] at @s if block ~ ~1 ~ stone run setblock ~ ~ ~ air replace
 execute as @e[type=marker,tag=engine.blocks.all] at @s if block ~ ~ ~ air run function engine:blocks/destroy
 
 execute as @e[type=fishing_bobber] at @s on origin if items entity @s weapon.* fishing_rod[custom_data~{engine:"redstone_pouch"},!damage=640] if block ~ ~ ~ water run kill @n[type=fishing_bobber]

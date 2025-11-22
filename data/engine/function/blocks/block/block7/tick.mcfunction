@@ -1,4 +1,4 @@
-execute unless block ~ ~ ~ waxed_copper_grate run setblock ~ ~ ~ air destroy
+execute unless block ~ ~ ~ waxed_copper_grate run setblock ~ ~ ~ air replace
 
 execute unless block ~ ~1 ~ redstone_block run function engine:blocks/block/block7/sideswork
 

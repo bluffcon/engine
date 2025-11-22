@@ -1,4 +1,4 @@
-execute if score @s engine.block5.failcount matches 5.. run return run setblock ~ ~ ~ air destroy
+execute if score @s engine.block5.failcount matches 5.. run return run setblock ~ ~ ~ air replace
 
 scoreboard players set @s engine.block5 0
 playsound block.beacon.deactivate block @a ~ ~ ~ 0.5 1
