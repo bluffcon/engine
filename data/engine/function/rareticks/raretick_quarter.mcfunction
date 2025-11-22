@@ -1,1 +1,1 @@
-execute as @e[type=marker,tag=engine.blocks.block5] at @s if entity @e[type=end_crystal,distance=..10] if score @s engine.lava matches 32.. run function engine:blocks/block/block5/soon
+execute as @e[type=marker,tag=engine.blocks.block5] at @s if block ~ ~-1 ~ air if entity @e[type=end_crystal,distance=..10] if score @s engine.lava matches 32.. run function engine:blocks/block/block5/soon

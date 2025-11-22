@@ -10,4 +10,4 @@ execute if block ~ ~ ~ barrel[open=true] run return run function engine:blocks/b
 
 scoreboard players set @s engine.block6.i 0
 function engine:blocks/block/block6/clear
-title @p[distance=..4] actionbar {text:"Magmatic Workbench ",color:red,extra:[{text:"· ",color:white},{text:"You need a Hammer",color:gold}]}
+title @p[distance=..1.2] actionbar {text:"Magmatic Workbench ",color:red,extra:[{text:"· ",color:white},{text:"You need a Hammer",color:gold}]}

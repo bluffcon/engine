@@ -23,7 +23,7 @@ kill @e[distance=..0.1,type=block_display]
 kill @e[distance=..0.1,type=item_display]
 kill @e[distance=..1,type=falling_block]
 kill @e[distance=..3,type=marker,tag=engine.blocks.block5.helper]
-execute if entity @s[type=marker] as @e[distance=..10,type=end_crystal,tag=engine.blocks.block5.crystal] run damage @s 1
+execute if entity @s[tag=engine.blocks.block5,type=marker] as @e[distance=..10,type=end_crystal,tag=engine.blocks.block5.crystal] run damage @s 1
 kill @s
 
 

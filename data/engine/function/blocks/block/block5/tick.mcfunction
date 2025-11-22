@@ -10,5 +10,5 @@ execute as @e[type=end_crystal,distance=..10,tag=engine.blocks.block5.crystal] r
 
 particle portal ~ ~0.5 ~ 0.1 0.1 0.1 2 2 force
 
-execute if score @s engine.block5 matches 1.. run function engine:blocks/block/block5/additionalwork
+execute if block ~ ~-1 ~ air if score @s engine.block5 matches 1.. run function engine:blocks/block/block5/additionalwork
 

@@ -28,7 +28,7 @@ give @s paper[custom_data={enginebp:"cast_metal"},item_name={"text":"Blueprint: 
      "    ", \
      "  "," ",{atlas:blocks,sprite:"block/iron_block",color:white}," ","  " \
    ] \
- } \
+ }, "", {text:"Engine",color:blue,italic:true} \
 ], rarity=common,max_stack_size=1,max_damage=64,damage=0]
 
 
@@ -64,5 +64,76 @@ give @s paper[custom_data={enginebp:"mechanical_assembly"},item_name={"text":"Bl
      "    ", \
      "  "," ",{atlas:blocks,sprite:"block/iron_block",color:white}," ","  " \
    ] \
- } \
+ }, "", {text:"Engine",color:blue,italic:true} \
+],rarity=common,max_stack_size=1,max_damage=64,damage=0]
+
+
+
+
+# WOVEN POUCH
+
+give @s paper[custom_data={enginebp:"woven_pouch"},item_name={"text":"Blueprint: Woven Pouch",color:"#59a9ff"},item_model="minecraft:flow_banner_pattern",lore=[ \
+ {text:"\"Some shared knowledge on how to use leather and",color:gray,italic:false}, \ 
+ {text:"strings to make beautiful pouches for stuff you",color:gray,italic:false}, \
+ {text:"aren't likely to want to carry around.\"",color:gray,italic:false}, \
+ "", \
+ { \
+   text:"", \
+   extra:[ \
+     "  "," ",{sprite:"item/structure_void",color:white}," ","  ", \
+     "    ", \
+     {sprite:"item/structure_void",color:white},{text:" = ",color:white,italic:false},{atlas:blocks,sprite:"item/redstone",color:white} \
+   ] \
+ }, \
+ { \
+   text:"", \
+   extra:[ \
+     {sprite:"item/structure_void",color:white}," ",{sprite:"item/bundle",color:white}," ",{sprite:"item/structure_void",color:white}, \
+     "    ", \
+     "  ",{text:" = ",color:white,italic:false},{atlas:blocks,sprite:"block/rail",color:white} \
+   ] \
+ }, \
+ { \
+   text:"", \
+   extra:[ \
+     "  "," ",{sprite:"item/structure_void",color:white}," ","  ", \
+     "    ", \
+     "  ",{text:" = ",color:white,italic:false},{atlas:blocks,sprite:"block/torch",color:white} \
+   ] \
+ }, "", {text:"Engine",color:blue,italic:true} \
+],rarity=common,max_stack_size=1,max_damage=64,damage=0]
+
+
+
+# MIXING
+
+give @s paper[custom_data={enginebp:"mixing"},item_name={"text":"Blueprint: Mixing",color:"#59a9ff"},item_model="minecraft:guster_banner_pattern",lore=[ \
+ {text:"\"Teachings on how to whisk up different chemicals and",color:gray,italic:false}, \ 
+ {text:"fluids to make different interesting all-new",color:gray,italic:false}, \
+ {text:"materials you can't normally find.\"",color:gray,italic:false}, \
+ "", \
+ { \
+   text:"", \
+   extra:[ \
+     {sprite:"item/redstone",color:white}," ",{sprite:"item/resin_clump",color:white}," ",{sprite:"item/redstone",color:white}, \
+     "    ", \
+     {sprite:"item/clay_ball",color:white}," ",{sprite:"item/spider_eye",color:white}," ",{sprite:"item/copper_nugget",color:white}, \
+   ] \
+ }, \
+ { \
+   text:"", \
+   extra:[ \
+     {sprite:"item/resin_clump",color:white}," ",{sprite:"item/raw_gold",color:white}," ",{sprite:"item/resin_clump",color:white}, \
+     "    ", \
+     {sprite:"item/armadillo_scute",color:white}," ",{sprite:"item/glow_ink_sac",color:white}," ",{sprite:"item/blaze_powder",color:white}, \
+   ] \
+ }, \
+ { \
+   text:"", \
+   extra:[ \
+     {sprite:"item/redstone",color:white}," ",{sprite:"item/resin_clump",color:white}," ",{sprite:"item/redstone",color:white}, \
+     "    ", \
+     "  "," ",{sprite:"item/bowl",color:white}," ","  ", \
+   ] \
+ }, "", {text:"Engine",color:blue,italic:true} \
 ],rarity=common,max_stack_size=1,max_damage=64,damage=0]

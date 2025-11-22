@@ -1,7 +1,6 @@
 
 $item modify block ~ ~ ~ container.11 {function:set_components, components:{item_model:"$(id)"}}
 
-$say $(id)
 function engine:crafts/clearstorage
 
 item modify block ~ ~ ~ container.23 {function:"set_count", count:-1,add:true}
