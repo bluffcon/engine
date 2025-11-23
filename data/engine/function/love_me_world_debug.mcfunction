@@ -4,3 +4,5 @@ time set day
 weather clear
 gamerule keepInventory true
 say changed gamerules
+gamerule commandBlockOutput false
+gamerule commandBlocksEnabled true

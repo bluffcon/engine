@@ -8,7 +8,7 @@ execute if entity @s[tag=engine.blocks.block2] run summon item ~ ~ ~ {Item:{"id"
 
 # todo 3
 
-# todo 4
+execute if entity @s[tag=engine.blocks.block4] run summon item ~ ~ ~ {Item:{"id": "minecraft:bat_spawn_egg", "components": {"minecraft:entity_data": { "id": "minecraft:armor_stand", "NoGravity": true,"Tags": ["engine.blocks.block4", "engine.blocks.all"],"Invisible": true},"minecraft:item_model": "minecraft:hopper", "minecraft:item_name": { "text": "Schematic Sequencer","italic": false},"minecraft:lore": [{"text": "Places blocks above itself by consuming lava", "color": "gold","italic": false},{"text": "Has an inventory from which blocks are retrieved", "color": "gray","italic": false},{"text": "[!] Item doesn't retain the lava!", "color": "red","italic": false},"",{"text": "Engine", "color": "blue","italic": true}],custom_data:{engine:"schematic_sequencer"},max_stack_size:64}}}
 
 execute if entity @s[tag=engine.blocks.block5] run summon item ~ ~ ~ {Item:{"id": "minecraft:bat_spawn_egg", "components": {"minecraft:entity_data": { "id": "minecraft:armor_stand", "NoGravity": true,"Tags": ["engine.blocks.block5", "engine.blocks.all"],"Invisible": true},"minecraft:item_model": "minecraft:respawn_anchor", "minecraft:item_name": { "text": "Deflagrative Condenser","italic": false},"minecraft:lore": [{"text": "Shoots out fireballs from below itself using lava", "color": "gold","italic": false},{"text": "Scales with End Crystals in the area", "color": "gray","italic": false},{"text": "[!] Item doesn't retain the lava!", "color": "red","italic": false},"",{"text": "Engine", "color": "blue","italic": true}],custom_data:{engine:"deflagrative_condenser"},max_stack_size:64}}}
 

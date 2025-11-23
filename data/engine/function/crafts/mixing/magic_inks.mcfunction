@@ -1,4 +1,4 @@
-execute if data storage engine:crafting output{id:"air"} run item replace block ~ ~ ~ container.16 with minecraft:glow_ink_sac[item_name={"text":"Magic Inks","italic":false},item_model="minecraft:glow_ink_sac",lore=[{"color":"gold","italic":false,"text":"Allows you to make one item look like another"},{"color":"gray","italic":false,"text":"Used in the Magmatic Workbench as a Blueprint"}, \
+execute if data storage engine:crafting output{id:"air"} run item replace block ~ ~ ~ container.16 with minecraft:glow_ink_sac[item_name={"text":"Magic Inks","italic":false},item_model="minecraft:glow_ink_sac",lore=[{"color":"gold","italic":false,"text":"Allows you to make one item look like another"},{"color":"gray","italic":false,"text":"Used in the Magmatic Workbench as a Whiteprint"}, \
  { \
    text:"", \
    extra:[ \
@@ -25,7 +25,7 @@ execute if data storage engine:crafting output{id:"air"} run item replace block 
  }, "", \
 {"color":"blue","italic":true,"text":"Engine"}],custom_data={engine:"magic_inks"},max_stack_size=64]
 
-execute unless data storage engine:crafting output{id:"air"} run give @p minecraft:glow_ink_sac[item_name={"text":"Magic Inks","italic":false},item_model="minecraft:glow_ink_sac",lore=[{"color":"gold","italic":false,"text":"Allows you to make one item look like another"},{"color":"gray","italic":false,"text":"Used in the Magmatic Workbench as a Blueprint"}, \
+execute unless data storage engine:crafting output{id:"air"} run give @p minecraft:glow_ink_sac[item_name={"text":"Magic Inks","italic":false},item_model="minecraft:glow_ink_sac",lore=[{"color":"gold","italic":false,"text":"Allows you to make one item look like another"},{"color":"gray","italic":false,"text":"Used in the Magmatic Workbench as a Whiteprint"}, \
  { \
    text:"", \
    extra:[ \

@@ -6,6 +6,7 @@ schedule function engine:tick 4t replace
 schedule function engine:randomtick 1s replace
 schedule function engine:rareticks/raretick 1s replace
 
+gamerule lavaSourceConversion false
 
 scoreboard objectives add engine.facing dummy
 scoreboard objectives add engine.lit dummy
@@ -19,3 +20,5 @@ scoreboard objectives add engine.block4.success dummy
 scoreboard objectives add engine.block5 dummy
 scoreboard objectives add engine.block5.failcount dummy
 scoreboard objectives add engine.block6.i dummy
+scoreboard objectives add engine.block6.renaming.generatename.what dummy
+scoreboard objectives add engine.block6.renaming.generatename dummy

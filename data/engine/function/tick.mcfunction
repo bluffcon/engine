@@ -14,6 +14,8 @@ execute at @e[type=tnt] as @n[type=item,distance=..4,tag=!engine.items.crackler,
 
 execute as @e[type=marker,tag=engine.blocks.block6] at @s run function engine:blocks/block/block6/tick
 
+execute as @a run function engine:playertick
+
 schedule function engine:tick 4t replace
 # every time a tick function is scheduled,
 # a butterfly is born.

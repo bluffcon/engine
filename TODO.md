@@ -56,11 +56,11 @@ DONE
  
 
 - block14
-- blueprint station
-- makes blueprints from items
+- whiteprint station
+- makes whiteprints from items
 - doesnt consume items, consumes hunger
-- random chance to get a blueprint when the inspiration items are right
-- blueprints are still craftable and findable otherwise
+- random chance to get a whiteprint when the inspiration items are right
+- whiteprints are still craftable and findable otherwise
 
 
 - block15
@@ -72,3 +72,9 @@ DONE
 - when has an emerald block below, changes trades every 5 seconds but damages the villager
 - the villager is rotated 1 degree when a redstone block is below
 
+
+
+- motion renewer
+- when entities touch this, change their motion
+- has 4 rotations
+- is a fence gate

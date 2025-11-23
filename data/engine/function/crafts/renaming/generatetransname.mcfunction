@@ -1,0 +1,3 @@
+$execute unless data storage engine:crafting 5.components."minecraft:item_name".text if data storage engine:crafting renaming{isblock:0b} run data modify storage engine:crafting renaming.nametrans set value "\"translate\":\"block.minecraft.$(trans)\""
+
+$execute unless data storage engine:crafting 5.components."minecraft:item_name".text if data storage engine:crafting renaming{isblock:1b} run data modify storage engine:crafting renaming.nametrans set value "\"translate\":\"block.minecraft.$(trans)\""

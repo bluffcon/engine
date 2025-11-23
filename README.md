@@ -9,7 +9,7 @@ This datapack introduces several new blocks, new choices for automation, utility
 
 ## Features
 - Machines that actively consume lava to work
-- Extensive crafting systems with many items and blueprints
+- Extensive crafting systems with many items and whiteprints
 - Utility items such as wrenches, redstone pouches, block placers, etc
 - Many explosive interactions with gunpowder and TNT
 - Redstone Utility heavy, tries to be as extensive in its features as possible
