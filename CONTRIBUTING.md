@@ -25,6 +25,7 @@ Vanilla crafting table recipes should just be added through the crafting table. 
 - Set slot 16 to your result, call `engine:crafts/done` at the end
 - Reference your function in the whiteprint's `main.mcfunction` with a return before the fail call
 - In `main`, add all of the logic for checking the crafting pattern
+- In guides add an entry for your recipe
 
 Done! Your recipe is added
 
