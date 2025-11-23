@@ -1,1 +1,1 @@
-execute if items entity @s armor.head * run function engine:helmets/tick
+execute if items entity @s armor.head * at @s run function engine:helmets/tick
