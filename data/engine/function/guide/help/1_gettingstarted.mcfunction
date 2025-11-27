@@ -1,7 +1,7 @@
 tellraw @s \
-{text: "Getting Started", bold:true, color: "aqua"}
+{text: "Getting Started; 1", bold:true, color: "aqua"}
 tellraw @s \
-{text: "To start off, you'll need a Hammer and a Magmatic Workbench.",color:white}
+{text: "To start off, you'll need a Hammer and a Magmatic Workbench. They make everything else in Engine",color:white}
 
 tellraw @s \
 {text: ""}
