@@ -1,11 +1,11 @@
 
-$item modify block ~ ~ ~ container.10 {function:set_enchantments,add:false,enchantments:$(enchants)}
+$item modify block ~ ~ ~ container.12 {function:set_enchantments,add:false,enchantments:$(enchants)}
 item modify block ~ ~ ~ container.11 {function:set_damage,damage:-0.1,add:true}
+item modify block ~ ~ ~ container.10 {function:set_components,components:{"minecraft:enchantments":{}}}
 
 function engine:crafts/clearstorage
-
-xp add @p -15 levels
-item modify block ~ ~ ~ container.12 {function:"set_count", count:-1,add:true}
+say transf
+xp add @p -10 levels
 
 playsound ui.hud.bubble_pop block @a ~ ~ ~ 0.9 1
 playsound block.anvil.use block @a ~ ~ ~ 0.7 1

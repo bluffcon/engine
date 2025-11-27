@@ -108,8 +108,8 @@ give @s paper[custom_data={enginebp:"woven_pouch"},item_name={"text":"Whiteprint
 # MIXING
 
 give @s paper[custom_data={enginebp:"mixing"},item_name={"text":"Whiteprint: Mixing",color:"#d2dff1"},item_model="minecraft:guster_banner_pattern",lore=[ \
- {text:"\"Teachings on how to whisk up different chemicals and",color:gray,italic:false}, \ 
- {text:"fluids to make different interesting all-new",color:gray,italic:false}, \
+ {text:"\"Teachings on how to whisk up different chemicals",color:gray,italic:false}, \ 
+ {text:"and fluids to make different interesting all-new",color:gray,italic:false}, \
  {text:"materials you can't normally find.\"",color:gray,italic:false}, \
  "", \
  { \
@@ -145,29 +145,36 @@ give @s paper[custom_data={enginebp:"mixing"},item_name={"text":"Whiteprint: Mix
 give @s minecraft:paper[item_name={"text":"Whiteprint: Enchanting",color:"#d2dff1",bold:true},item_model="minecraft:mojang_banner_pattern",lore=[ \
  {text:"\"Stories of mages and vengeful knights with blades",color:gray,italic:false}, \ 
  {text:"so sharp they could pierce the firmament itself.",color:gray,italic:false}, \
- {text:"Why is that on a whiteprint though?\"  (+5",color:gray,italic:false,extra:[{sprite:"item/experience_bottle",color:white},{text:")"}]}, \
+ {text:"Why is that on a whiteprint though?\"  (+3-15",color:gray,italic:false,extra:[{sprite:"item/experience_bottle",color:white},{text:")"}]}, \
  "", \
  { \
-   text:"", \
-   extra:[ \
-     "  "," ","  "," ","  ", \
-     "", \
-     "  ", \
+    text:"", \
+    extra:[ \
+      {text:". ",color:black}," "," "," ","   ", \
+      "  ", \
+      {sprite:"item/lapis_lazuli",color:white}," ",{sprite:"item/lapis_lazuli",color:white}," ",{sprite:"item/lapis_lazuli",color:white}, \
+      "  ", \
    ] \
  }, \
  { \
    text:"", \
    extra:[ \
-     {sprite:"item/diamond_sword",color:white}, " ", {sprite:"item/mace",color:white}, " ", {sprite:"item/enchanted_book",color:"#f5a7ff"}, \
-     {text:" → ",color:white,italic:false}, \
-     {sprite:"item/diamond_sword",color:"#d67dff"}, " " \
+      " "," ",{sprite:"item/diamond_sword",color:white}," "," ", \
+      {text:" = ",color:white,italic:false}, \
+      {sprite:"item/lapis_lazuli",color:white}," ",{sprite:"item/diamond_sword",color:white}," ",{sprite:"item/lapis_lazuli",color:white}, \
+      {text:" = ",color:white,italic:false}, \
+      {sprite:"item/diamond_sword",color:white}, " ", {sprite:"item/mace",color:white}, " ", {sprite:"item/enchanted_book",color:"#f5a7ff"}, \
+      {text:" → ",color:white,italic:false}, \
+      {sprite:"item/diamond_sword",color:"#d67dff"}, " " \
    ] \
  }, \
  { \
    text:"", \
    extra:[ \
-     "  "," ","  "," ","  ", \
-     "   ", \
+      {text:". ",color:black}," "," "," ","   ", \
+      "  ", \
+      {sprite:"item/lapis_lazuli",color:white}," ",{sprite:"item/lapis_lazuli",color:white}," ",{sprite:"item/lapis_lazuli",color:white}, \
+      " ", \
      "  ",  \
    ] \
  }, "", \

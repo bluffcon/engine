@@ -14,8 +14,6 @@
 - grit is smeltable into ingots in an induction furnace
 
 
-DONE
-
 
 - block9
 - induction furnace brain
@@ -33,19 +31,8 @@ DONE
 - block10
 - BOF basic oxygen furnace
 - makes steel by reacting with the carbon in your iron with oxygen
-- 3 block multiblock
-- brain, bellows, coil
-- BCW (Brain Coil belloW)
 
 
-- block11
-- bellows
-- activated by redstone
-- makes air particles and blows away non-player mobs
-- is a comparator
-- when in SUBTRACTION mode, only blows away items
-
-DONE
 
 - block13
 - redstone randomizer
@@ -73,8 +60,3 @@ DONE
 - the villager is rotated 1 degree when a redstone block is below
 
 
-
-- motion renewer
-- when entities touch this, change their motion
-- has 4 rotations
-- is a fence gate
