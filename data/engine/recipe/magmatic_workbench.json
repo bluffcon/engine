@@ -9,7 +9,7 @@
     "key": {
         "A": "minecraft:iron_nugget",
         "L": "#minecraft:logs",
-        "R": "minecraft:redstone",
+        "R": "minecraft:lava_bucket",
         "N": "minecraft:iron_ingot"
     },
     "result":

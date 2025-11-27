@@ -19,7 +19,7 @@ tellraw @s \
 tellraw @s \
 [{sprite:"item/iron_nugget"}," ",{sprite:"block/oak_log"}," ",{sprite:"item/iron_nugget"}, "  ", {text:"Magmatic Workbench"}]
 tellraw @s \
-[{sprite:"item/iron_nugget"}," ",{sprite:"item/redstone"}," ",{sprite:"item/iron_nugget"}, "  ", {text:"It makes the stuff! Needs some",color:gray}]
+[{sprite:"item/iron_nugget"}," ",{sprite:"item/lava_bucket"}," ",{sprite:"item/iron_nugget"}, "  ", {text:"It makes the stuff! Needs some",color:gray}]
 tellraw @s \
 [{sprite:"item/iron_ingot"}," ",{sprite:"item/iron_ingot"}," ",{sprite:"item/iron_ingot"}, "  ", {text:"whiteprints to create its magic",color:gray}]
 
