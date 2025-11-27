@@ -7,7 +7,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "items": "minecraft:iron_pickaxe",
+            "items": "minecraft:iron_ingot",
             "components": {
               "minecraft:custom_data": {
                 "engine": "hammer"
@@ -23,7 +23,7 @@
       "predicate": {
         "equipment": {
           "offhand": {
-            "items": "minecraft:iron_pickaxe",
+            "items": "minecraft:iron_ingot",
             "components": {
               "minecraft:custom_data": {
                 "engine": "hammer"
