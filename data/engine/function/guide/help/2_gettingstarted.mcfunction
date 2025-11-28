@@ -27,4 +27,4 @@ tellraw @s \
 tellraw @s \
 {text: "This will get you the ",color:white,extra:[{"text":"Drawing Whiteprint.",bold:true,color:"#e4e5f3"}]}
 tellraw @s \
-{text: "Past this point, you can just follow the whiteprint",color:gray}
+{text: "More about it in 'Whiteprints'",color:gray}

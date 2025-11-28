@@ -12,3 +12,4 @@ data modify storage engine:crafting output set value {id: "air"}
 data modify storage engine:crafting enchanting set value {}
 data modify storage engine:crafting renaming set value {}
 data modify storage engine:crafting magic_inks set value {}
+scoreboard players set @s engine.inspiration 0

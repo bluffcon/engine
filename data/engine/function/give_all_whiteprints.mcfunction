@@ -179,3 +179,7 @@ give @s minecraft:paper[item_name={"text":"Whiteprint: Enchanting",color:"#d2dff
    ] \
  }, "", \
 {"color":"blue","italic":true,"text":"Engine"}],custom_data={enginebp:"enchanting"},max_stack_size=1,max_damage=64,damage=0]
+
+
+
+function engine:crafts/drawing/itself

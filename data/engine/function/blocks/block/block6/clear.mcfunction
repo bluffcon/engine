@@ -1,2 +1,2 @@
-#execute if items block ~ ~ ~ container.* knowledge_book run setblock ~ ~ ~ barrel[facing=up]{Items:[], CustomName:"Magmatic Workbench",lock:{components:{"custom_data":{engine:"hammer"}}}}
-#execute unless items block ~ ~ ~ container.* knowledge_book run setblock ~ ~ ~ air
+clear @a *[minecraft:custom_data={engine:"void"}]
+execute at @a run kill @e[distance=..10,type=item,nbt={Item:{components:{"minecraft:custom_data":{"engine":"void"}}}}]

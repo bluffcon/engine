@@ -26,14 +26,21 @@ Item:{id:"minecraft:written_book", components: { \
         } \
       ], \
       tooltip_display: {hidden_components: ["written_book_content"]}, \
-      written_book_content: {author: "bluffcon",title:"", generation:3,resolved:false, pages:[[[{"text":"W","color":"#81d009"},{"text":"e","color":"#7bd10c"},{"text":"l","color":"#76d20e"},{"text":"c","color":"#70d311"},{"text":"o","color":"#6ad413"},{"text":"m","color":"#65d516"},{"text":"e","color":"#5fd618"},{"text":" ","color":"#59d71b"},{"text":"t","color":"#54d81d"},{"text":"o","color":"#4ed920"},{"text":" ","color":"#48da22"},{"text":"E","color":"#42db25"},{"text":"n","color":"#3ddc27"},{"text":"g","color":"#37dd2a"},{"text":"i","color":"#31de2c"},{"text":"n","color":"#2cdf2f"},{"text":"e","color":"#26e031"},{"text":"!","color":"#20e134"},{"text":" ","color":"#1be236"},{"text":"★","color":"#f1a607"},"\n",{"text":"This Guidebook will help you get things started. ","color":"#202020"},{"atlas":"minecraft:particles","sprite":"glint"},"\n",{"text":"Each page will have a button that will print info to your chat! Some info is available right in this book.","color":"#202020"},"\n\n",{"text":"Turn the page","bold":true}," to access the different categories!"]],[[{"text":"Categories ","bold":true}, {"text":"★","bold":true,"color":"#f99f46"}, \
+      written_book_content: {author: "bluffcon",title:"", generation:3,resolved:false, pages:[[[{"text":"W","color":"#81d009"},{"text":"e","color":"#7bd10c"},{"text":"l","color":"#76d20e"},{"text":"c","color":"#70d311"},{"text":"o","color":"#6ad413"},{"text":"m","color":"#65d516"},{"text":"e","color":"#5fd618"},{"text":" ","color":"#59d71b"},{"text":"t","color":"#54d81d"},{"text":"o","color":"#4ed920"},{"text":" ","color":"#48da22"},{"text":"E","color":"#42db25"},{"text":"n","color":"#3ddc27"},{"text":"g","color":"#37dd2a"},{"text":"i","color":"#31de2c"},{"text":"n","color":"#2cdf2f"},{"text":"e","color":"#26e031"},{"text":"!","color":"#20e134"},{"text":" ","color":"#1be236"},{"text":"★","color":"#f1a607"},"\n",{"text":"This Guidebook will help you get things started. ","color":"#202020"},{"atlas":"minecraft:particles","sprite":"glint"},"\n",{"text":"Each page will have a button that will print info to your chat! Some info is available right in this book.","color":"#202020"},"\n\n",{"text":"Turn the page",color:"#5f8b5f","bold":true},{text:" to access the different articles!",color:"#699c69"}]],[[{"text":"Articles ","bold":true}, {"text":"★","bold":true,"color":"#f99f46"}, \
       "\n\n- [", \
       {"text":"Getting Started","underlined":true,"bold":false,"color":"#419c41", \
       hover_event: \
-      {"action":"show_text",value:{"text":"Show text in chat",color:"#84c784"}}, \
+      {"action":"show_text",value:{"text":"[Getting Started] Show text in chat",color:"#84c784"}}, \
       click_event: \
       {action:"run_command",command:"trigger engine.guide set 1"}}, \
-      "]" \
+      "]", \
+      "\n- [", \
+      {"text":"Whiteprints","underlined":true,"bold":false,"color":"#419c41", \
+      hover_event: \
+      {"action":"show_text",value:{"text":"[Whiteprints] Show text in chat",color:"#84c784"}}, \
+      click_event: \
+      {action:"run_command",command:"trigger engine.guide set 3"}}, \
+      "]", \
       \
       ]]],}  \
 }}, \
