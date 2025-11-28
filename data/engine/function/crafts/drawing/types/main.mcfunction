@@ -8,5 +8,10 @@ execute \
 if data storage engine:crafting 5{id:"minecraft:bowl"} \
 run return run function engine:crafts/drawing/types/mixing/inspiration
 
+execute \
+if data storage engine:crafting 5{id:"minecraft:lava_bucket"} \
+run return run function engine:crafts/drawing/types/cast_metal/inspiration
+
+
 
 function engine:crafts/drawing/failed

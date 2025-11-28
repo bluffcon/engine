@@ -8,27 +8,90 @@ give @s paper[custom_data={enginebp:"cast_metal"},item_name={"text":"Whiteprint:
  { \
    text:"", \
    extra:[ \
-     {sprite:"item/copper_ingot",color:white}," ","  "," ",{atlas:blocks,sprite:"item/copper_ingot",color:white}, \
+     {sprite:"item/copper_ingot",color:white}," ","  "," ",{sprite:"item/copper_ingot",color:white}, \
      "    ", \
-     {sprite:"block/iron_block",color:white}," ",{atlas:blocks,sprite:"block/magma",color:white}," ",{atlas:blocks,sprite:"block/iron_block",color:white} \
+     {sprite:"block/iron_block",color:white}," ",{sprite:"block/magma",color:white}," ",{sprite:"block/iron_block",color:white}, \
+     "    ", \
+     {sprite:"item/netherite_ingot",color:white}," ",{sprite:"item/netherite_ingot",color:white}," ",{sprite:"item/netherite_ingot",color:white}, \
+     "    ", \
+     {sprite:"item/iron_ingot",color:white}," ",{sprite:"block/iron_block",color:white}," ",{sprite:"item/iron_ingot",color:white}, \
+     "    ", \
+     "  "," ",{sprite:"item/iron_nugget",color:white}," ","  ", \
    ] \
  }, \
  { \
    text:"", \
    extra:[ \
-     {sprite:"item/copper_ingot",color:white}," ",{atlas:blocks,sprite:"item/copper_ingot",color:white}," ",{atlas:blocks,sprite:"item/copper_ingot",color:white}, \
+     {sprite:"item/copper_ingot",color:white}," ",{sprite:"item/copper_ingot",color:white}," ",{sprite:"item/copper_ingot",color:white}, \
      "    ", \
-     {sprite:"item/iron_ingot",color:white}," ",{atlas:blocks,sprite:"block/iron_bars",color:white}," ",{atlas:blocks,sprite:"item/iron_ingot",color:white} \
+     {sprite:"item/iron_ingot",color:white}," ",{sprite:"block/iron_bars",color:white}," ",{sprite:"item/iron_ingot",color:white}, \
+     "    ", \
+     {sprite:"item/netherite_ingot",color:white}," ",{sprite:"block/lodestone_side",color:white}," ",{sprite:"item/netherite_ingot",color:white}, \
+     "    ", \
+     "  "," ",{sprite:"item/iron_ingot",color:white}," ","  ", \
+     "    ", \
+     {sprite:"item/iron_nugget",color:white}," ","  "," ",{sprite:"item/iron_nugget",color:white}, \
    ] \
  }, \
  { \
    text:"", \
    extra:[ \
-     "  "," ",{atlas:blocks,sprite:"item/copper_ingot",color:white}," ","  ", \
+     "  "," ",{sprite:"item/copper_ingot",color:white}," ","  ", \
      "    ", \
-     "  "," ",{atlas:blocks,sprite:"block/iron_block",color:white}," ","  " \
+     "  "," ",{sprite:"block/iron_block",color:white}," ","  ", \
+     "    ", \
+     {sprite:"item/netherite_ingot",color:white}," ",{sprite:"item/netherite_ingot",color:white}," ",{sprite:"item/netherite_ingot",color:white}, \
+     "    ", \
+     {sprite:"item/iron_ingot",color:white}," ",{sprite:"item/iron_ingot",color:white}," ",{sprite:"item/iron_ingot",color:white}, \
+     "    ", \
+     {sprite:"item/iron_nugget",color:white}," ",{sprite:"item/iron_ingot",color:white}," ",{sprite:"item/iron_nugget",color:white}, \
    ] \
- }, "", {text:"Engine",color:blue,italic:true} \
+ }, \
+ "", \
+ \
+ { \
+   text:"", \
+   extra:[ \
+   {sprite:"item/iron_ingot",color:white}," ","  "," ",{sprite:"item/iron_ingot",color:white}, \
+     "    ", \
+     "  "," ",{sprite:"item/stick",color:white}," ","  ", \
+          "    ", \
+     {sprite:"item/copper_ingot",color:white}," ",{sprite:"item/copper_nugget",color:white}," ",{sprite:"item/copper_ingot",color:white}, \
+      "    ", \
+     {sprite:"item/copper_ingot",color:white}," ",{sprite:"item/copper_ingot",color:white}," ",{sprite:"item/copper_ingot",color:white}, \
+      "    ", \
+     "  "," ",{sprite:"block/carved_pumpkin",color:white}," ","  ", \
+   ] \
+ },\
+ { \
+   text:"", \
+   extra:[ \
+     {sprite:"item/iron_ingot",color:white}," ","  "," ",{sprite:"item/iron_ingot",color:white}, \
+     "    ", \
+     {sprite:"item/gold_ingot",color:white}," ",{sprite:"item/gold_ingot",color:white}," ",{sprite:"item/gold_ingot",color:white}, \
+      "    ", \
+     {sprite:"item/copper_nugget",color:white}," ",{sprite:"item/redstone",color:white}," ",{sprite:"item/copper_nugget",color:white}, \
+      "    ", \
+     {sprite:"item/copper_ingot",color:white}," ","  "," ",{sprite:"item/copper_ingot",color:white}, \
+     "    ", \
+     {sprite:"item/copper_ingot",color:white}," ",{sprite:"item/copper_ingot",color:white}," ",{sprite:"item/copper_ingot",color:white}, \
+   ] \
+ },\
+ { \
+   text:"", \
+   extra:[ \
+     "  "," ",{sprite:"item/iron_ingot",color:white}," ","  ", \
+     "    ", \
+     {sprite:"item/gold_ingot",color:white}," ",{sprite:"block/gold_block",color:white}," ",{sprite:"item/gold_ingot",color:white}, \
+     "    ", \
+     {sprite:"item/copper_ingot",color:white}," ",{sprite:"item/copper_nugget",color:white}," ",{sprite:"item/copper_ingot",color:white}, \
+     "    ", \
+     {sprite:"item/copper_ingot",color:white}," ",{sprite:"item/copper_ingot",color:white}," ",{sprite:"item/copper_ingot",color:white}, \
+     "    ", \
+     "  "," ",{sprite:"item/copper_ingot",color:white}," ","  ", \
+   ] \
+ },\
+ "", {text:"Engine",color:blue,italic:true} \
 ], rarity=common,max_stack_size=1,max_damage=64,damage=0]
 
 
@@ -46,7 +109,7 @@ give @s paper[custom_data={enginebp:"mechanical_assembly"},item_name={"text":"Wh
    extra:[ \
      {sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_bars",color:white}, \
      "    ", \
-     {sprite:"block/iron_block",color:white}," ",{atlas:blocks,sprite:"block/magma",color:white}," ",{atlas:blocks,sprite:"block/iron_block",color:white} \
+     {sprite:"block/iron_block",color:white}," ",{sprite:"block/magma",color:white}," ",{sprite:"block/iron_block",color:white} \
    ] \
  }, \
  { \
@@ -54,7 +117,7 @@ give @s paper[custom_data={enginebp:"mechanical_assembly"},item_name={"text":"Wh
    extra:[ \
      {sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_block",color:white}," ",{sprite:"block/copper_bars",color:white}, \
      "    ", \
-     {sprite:"item/iron_ingot",color:white}," ",{atlas:blocks,sprite:"block/iron_bars",color:white}," ",{atlas:blocks,sprite:"item/iron_ingot",color:white} \
+     {sprite:"item/iron_ingot",color:white}," ",{sprite:"block/iron_bars",color:white}," ",{sprite:"item/iron_ingot",color:white} \
    ] \
  }, \
  { \
@@ -62,7 +125,7 @@ give @s paper[custom_data={enginebp:"mechanical_assembly"},item_name={"text":"Wh
    extra:[ \
      {sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_bars",color:white}, \
      "    ", \
-     "  "," ",{atlas:blocks,sprite:"block/iron_block",color:white}," ","  " \
+     "  "," ",{sprite:"block/iron_block",color:white}," ","  " \
    ] \
  }, "", {text:"Engine",color:blue,italic:true} \
 ],rarity=common,max_stack_size=1,max_damage=64,damage=0]
@@ -82,7 +145,7 @@ give @s paper[custom_data={enginebp:"woven_pouch"},item_name={"text":"Whiteprint
    extra:[ \
      "  "," ",{sprite:"item/structure_void",color:white}," ","  ", \
      "    ", \
-     {sprite:"item/structure_void",color:white},{text:" = ",color:white,italic:false},{atlas:blocks,sprite:"item/redstone",color:white} \
+     {sprite:"item/structure_void",color:white},{text:" = ",color:white,italic:false},{sprite:"item/redstone",color:white} \
    ] \
  }, \
  { \
@@ -90,7 +153,7 @@ give @s paper[custom_data={enginebp:"woven_pouch"},item_name={"text":"Whiteprint
    extra:[ \
      {sprite:"item/structure_void",color:white}," ",{sprite:"item/bundle",color:white}," ",{sprite:"item/structure_void",color:white}, \
      "    ", \
-     "  ",{text:" = ",color:white,italic:false},{atlas:blocks,sprite:"block/rail",color:white} \
+     "  ",{text:" = ",color:white,italic:false},{sprite:"block/rail",color:white} \
    ] \
  }, \
  { \
@@ -98,7 +161,7 @@ give @s paper[custom_data={enginebp:"woven_pouch"},item_name={"text":"Whiteprint
    extra:[ \
      "  "," ",{sprite:"item/structure_void",color:white}," ","  ", \
      "    ", \
-     "  ",{text:" = ",color:white,italic:false},{atlas:blocks,sprite:"block/torch",color:white} \
+     "  ",{text:" = ",color:white,italic:false},{sprite:"block/torch",color:white} \
    ] \
  }, "", {text:"Engine",color:blue,italic:true} \
 ],rarity=common,max_stack_size=1,max_damage=64,damage=0]
