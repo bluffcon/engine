@@ -74,7 +74,7 @@ give @s paper[custom_data={enginebp:"cast_metal"},item_name={"text":"Whiteprint:
       "    ", \
      {sprite:"item/copper_ingot",color:white}," ","  "," ",{sprite:"item/copper_ingot",color:white}, \
      "    ", \
-     {sprite:"item/copper_ingot",color:white}," ",{sprite:"item/copper_ingot",color:white}," ",{sprite:"item/copper_ingot",color:white}, \
+     {sprite:"item/copper_ingot",color:white}," ",{sprite:"block/copper_block",color:white}," ",{sprite:"item/copper_ingot",color:white}, \
    ] \
  },\
  { \

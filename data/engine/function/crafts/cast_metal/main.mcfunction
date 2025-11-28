@@ -91,7 +91,7 @@ if data storage engine:crafting 9{id:"minecraft:gold_ingot"} \
 run return run function engine:crafts/cast_metal/bell
 
 execute \
-if score @s engine.lava matches 4.. \
+if score @s engine.lava matches 16.. \
 if data storage engine:crafting 1{id:"minecraft:copper_ingot"} \
 if data storage engine:crafting 2{id:"minecraft:copper_nugget"} \
 if data storage engine:crafting 3{id:"minecraft:copper_ingot"} \
@@ -122,7 +122,7 @@ if data storage engine:crafting 1{id:"air"} \
 if data storage engine:crafting 2{id:"minecraft:carved_pumpkin"} \
 if data storage engine:crafting 3{id:"air"} \
 if data storage engine:crafting 4{id:"minecraft:copper_ingot"} \
-if data storage engine:crafting 5{id:"minecraft:copper_ingot"} \
+if data storage engine:crafting 5{id:"minecraft:copper_block"} \
 if data storage engine:crafting 6{id:"minecraft:copper_ingot"} \
 if data storage engine:crafting 7{id:"air"} \
 if data storage engine:crafting 8{id:"minecraft:copper_ingot"} \
