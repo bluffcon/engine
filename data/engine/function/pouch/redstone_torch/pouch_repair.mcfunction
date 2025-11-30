@@ -1,0 +1,4 @@
+execute if items entity @p[distance=..5] weapon.offhand fishing_rod[!damage=0,custom_data~{engine:"redstone_torch_pouch"}] run scoreboard players remove @s engine.lava 1
+
+execute if items entity @p[distance=..5] weapon.offhand fishing_rod[!damage=0,custom_data~{engine:"redstone_torch_pouch"}] run item modify entity @p[distance=..5] weapon.offhand {"function":"set_damage",add:true,damage:0.0007812}
+execute if items entity @p[distance=..5] weapon.offhand fishing_rod[!damage=0,custom_data~{engine:"redstone_torch_pouch"}] run kill @e[type=item,distance=..5,nbt={Item:{id:"minecraft:redstone_torch",count:1}}]

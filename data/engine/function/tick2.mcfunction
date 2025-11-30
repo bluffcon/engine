@@ -11,5 +11,7 @@ execute as @e[type=marker,tag=engine.blocks.block4] at @s run function engine:bl
 execute as @e[type=marker,tag=engine.blocks.block5] at @s run function engine:blocks/block/block5/tick
 execute as @e[type=marker,tag=engine.blocks.block7] at @s run function engine:blocks/block/block7/tick
 execute as @e[type=marker,tag=engine.blocks.block8] at @s run function engine:blocks/block/block8/tick
+execute as @e[type=marker,tag=engine.blocks.block9] at @s run function engine:blocks/block/block9/tick
+
 
 schedule function engine:tick2 20t

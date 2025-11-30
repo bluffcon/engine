@@ -99,73 +99,13 @@ give @s paper[custom_data={enginebp:"cast_metal"},item_name={"text":"Whiteprint:
 
 # MECHANICAL ASSEMBLY
 
-give @s paper[custom_data={enginebp:"mechanical_assembly"},item_name={"text":"Whiteprint: Mechanical Assembly",color:"#d2dff1"},item_model="minecraft:flower_banner_pattern",lore=[ \
- {text:"\"In-Depth guide on how to assemble the simplest",color:gray,italic:false}, \ 
- {text:"gears and coils together. This is difficult, but",color:gray,italic:false}, \
- {text:"the only difficuly lies in practice.\"",color:gray,italic:false}, \
- "", \
- { \
-   text:"", \
-   extra:[ \
-     {sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_bars",color:white}, \
-     "    ", \
-     {sprite:"block/iron_block",color:white}," ",{sprite:"block/magma",color:white}," ",{sprite:"block/iron_block",color:white} \
-   ] \
- }, \
- { \
-   text:"", \
-   extra:[ \
-     {sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_block",color:white}," ",{sprite:"block/copper_bars",color:white}, \
-     "    ", \
-     {sprite:"item/iron_ingot",color:white}," ",{sprite:"block/iron_bars",color:white}," ",{sprite:"item/iron_ingot",color:white} \
-   ] \
- }, \
- { \
-   text:"", \
-   extra:[ \
-     {sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_bars",color:white}," ",{sprite:"block/copper_bars",color:white}, \
-     "    ", \
-     "  "," ",{sprite:"block/iron_block",color:white}," ","  " \
-   ] \
- }, "", {text:"Engine",color:blue,italic:true} \
-],rarity=common,max_stack_size=1,max_damage=64,damage=0]
+function engine:crafts/drawing/types/mechanical_assembly/done
 
 
 
 
 # WOVEN POUCH
-
-give @s paper[custom_data={enginebp:"woven_pouch"},item_name={"text":"Whiteprint: Woven Pouch",color:"#d2dff1"},item_model="minecraft:flow_banner_pattern",lore=[ \
- {text:"\"Some shared knowledge on how to use leather and",color:gray,italic:false}, \ 
- {text:"strings to make beautiful pouches for stuff you",color:gray,italic:false}, \
- {text:"aren't likely to want to carry around.\"",color:gray,italic:false}, \
- "", \
- { \
-   text:"", \
-   extra:[ \
-     "  "," ",{sprite:"item/structure_void",color:white}," ","  ", \
-     "    ", \
-     {sprite:"item/structure_void",color:white},{text:" = ",color:white,italic:false},{sprite:"item/redstone",color:white} \
-   ] \
- }, \
- { \
-   text:"", \
-   extra:[ \
-     {sprite:"item/structure_void",color:white}," ",{sprite:"item/bundle",color:white}," ",{sprite:"item/structure_void",color:white}, \
-     "    ", \
-     "  ",{text:" = ",color:white,italic:false},{sprite:"block/rail",color:white} \
-   ] \
- }, \
- { \
-   text:"", \
-   extra:[ \
-     "  "," ",{sprite:"item/structure_void",color:white}," ","  ", \
-     "    ", \
-     "  ",{text:" = ",color:white,italic:false},{sprite:"block/torch",color:white} \
-   ] \
- }, "", {text:"Engine",color:blue,italic:true} \
-],rarity=common,max_stack_size=1,max_damage=64,damage=0]
-
+function engine:crafts/drawing/types/woven_pouch/done
 
 
 # MIXING

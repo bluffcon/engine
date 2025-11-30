@@ -1,0 +1,7 @@
+
+
+execute if data storage engine:crafting output{id:"air"} run item replace block ~ ~ ~ container.16 with minecraft:bat_spawn_egg[entity_data={ "id": "minecraft:armor_stand", "NoGravity": true,"Tags": ["engine.blocks.block3", "engine.blocks.all"],"Invisible": true},item_model="minecraft:copper_bulb", item_name={ "text": "Cauldron Autoresolver","italic": false},lore=[{"text": "Toggleable block that automatically destroys cauldrons", "color": "gold","italic": false},{"text": "Works in all directions. Spends lava for each cauldron broken", "color": "gray","italic": false},{"text": "[!] Item doesn't retain the lava!", "color": "red","italic": false},"",{"text": "Engine", "color": "blue","italic": true}],custom_data={engine:"cauldron_autoresolver"},max_stack_size=64]
+
+execute unless data storage engine:crafting output{id:"air"} run give @p minecraft:bat_spawn_egg[entity_data={ "id": "minecraft:armor_stand", "NoGravity": true,"Tags": ["engine.blocks.block3", "engine.blocks.all"],"Invisible": true},item_model="minecraft:copper_bulb", item_name={ "text": "Cauldron Autoresolver","italic": false},lore=[{"text": "Toggleable block that automatically destroys cauldrons", "color": "gold","italic": false},{"text": "Works in all directions. Spends lava for each cauldron broken", "color": "gray","italic": false},{"text": "[!] Item doesn't retain the lava!", "color": "red","italic": false},"",{"text": "Engine", "color": "blue","italic": true}],custom_data={engine:"cauldron_autoresolver"},max_stack_size=64]
+
+function engine:crafts/done

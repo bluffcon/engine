@@ -8,6 +8,7 @@ execute if entity @s[tag=engine.blocks.block5] run function engine:blocks/block/
 execute if entity @s[tag=engine.blocks.block6] run function engine:blocks/block/block6/setup
 execute if entity @s[tag=engine.blocks.block7] run function engine:blocks/block/block7/setup
 execute if entity @s[tag=engine.blocks.block8] run function engine:blocks/block/block8/setup
+execute if entity @s[tag=engine.blocks.block9] run function engine:blocks/block/block9/setup
 
 execute if entity @s[tag=engine.blocks.guide] run function engine:guide/give
 

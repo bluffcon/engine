@@ -41,6 +41,13 @@ Item:{id:"minecraft:written_book", components: { \
       click_event: \
       {action:"run_command",command:"trigger engine.guide set 3"}}, \
       "]", \
+      "\n- [", \
+      {"text":"Guide","underlined":true,"bold":false,"color":"#419c41", \
+      hover_event: \
+      {"action":"show_text",value:{"text":"[Guide] Show text in chat",color:"#84c784"}}, \
+      click_event: \
+      {action:"run_command",command:"trigger engine.guide set 4"}}, \
+      "]", \
       \
       ]]],}  \
 }}, \

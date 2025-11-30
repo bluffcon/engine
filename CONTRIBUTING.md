@@ -1,5 +1,6 @@
 # **Contributing Guide**
 Here's a quick guide on how different features are made up in Engine! Before adding major features please consult in issues or on Discord first!
+**OUTDATED!! hasnt been updated in a while!!**
 
 ## Making blocks
 A block is an entity with a setup and tick functions

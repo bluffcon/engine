@@ -1,0 +1,5 @@
+execute if items entity @s weapon.* fishing_rod[custom_data~{engine:"redstone_pouch"},!damage=1280] run return run function engine:pouch/redstone/redstone_pouch
+execute if items entity @s weapon.* fishing_rod[custom_data~{engine:"torch_pouch"},!damage=1280] run return run function engine:pouch/torch/torch_pouch
+execute if items entity @s weapon.* fishing_rod[custom_data~{engine:"redstone_torch_pouch"},!damage=1280] run return run function engine:pouch/redstone_torch/redstone_torch_pouch
+execute if items entity @s weapon.* fishing_rod[custom_data~{engine:"rail_pouch"},!damage=1280] run return run function engine:pouch/rail/rail_pouch
+execute if items entity @s weapon.* fishing_rod[custom_data~{engine:"powered_rail_pouch"},!damage=1280] run return run function engine:pouch/powered_rail/powered_rail_pouch

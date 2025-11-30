@@ -21,5 +21,6 @@ scoreboard objectives add engine.block5 dummy
 scoreboard objectives add engine.block5.failcount dummy
 scoreboard objectives add engine.block6.i dummy
 scoreboard objectives add engine.inspiration dummy
+scoreboard objectives add engine.life dummy
 
 scoreboard objectives add engine.guide trigger {"text":"Guide Page"}

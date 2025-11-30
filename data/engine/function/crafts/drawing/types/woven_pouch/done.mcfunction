@@ -17,7 +17,7 @@ give @p paper[custom_data={enginebp:"woven_pouch"},item_name={"text":"Whiteprint
    extra:[ \
      {sprite:"item/structure_void",color:white}," ",{sprite:"item/bundle",color:white}," ",{sprite:"item/structure_void",color:white}, \
      "    ", \
-     "  ",{text:" = ",color:white,italic:false},{atlas:blocks,sprite:"block/rail",color:white} \
+     "  ",{text:" = ",color:white,italic:false},{atlas:blocks,sprite:"block/rail",color:white}, {atlas:blocks,sprite:"block/powered_rail_on",color:white} \
    ] \
  }, \
  { \
@@ -25,7 +25,7 @@ give @p paper[custom_data={enginebp:"woven_pouch"},item_name={"text":"Whiteprint
    extra:[ \
      "  "," ",{sprite:"item/structure_void",color:white}," ","  ", \
      "    ", \
-     "  ",{text:" = ",color:white,italic:false},{atlas:blocks,sprite:"block/torch",color:white} \
+     "  ",{text:" = ",color:white,italic:false},{atlas:blocks,sprite:"block/torch",color:white},{atlas:blocks,sprite:"block/redstone_torch",color:white} \
    ] \
  }, "", {text:"Engine",color:blue,italic:true} \
 ],rarity=common,max_stack_size=1,max_damage=64,damage=0]

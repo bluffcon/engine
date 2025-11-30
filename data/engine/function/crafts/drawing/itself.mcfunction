@@ -7,13 +7,13 @@ give @p minecraft:paper[item_name={"text":"Whiteprint: Drawing",color:"#d2dff1"}
  { \
    text:"Main: ", color:gray,italic:false, \
    extra:[ \
-   {sprite:"item/lava_bucket",color:white}, " ", {sprite:"item/bowl",color:white}, " ", {sprite:"item/rabbit_hide",color:white},\
+   {sprite:"block/piston_side",color:white}, " ", {sprite:"item/lava_bucket",color:white}, " ", {sprite:"item/bowl",color:white}, " ", {sprite:"item/rabbit_hide",color:white},\
    ] \
  }, \
  { \
    text:"Secondary: ", color:gray,italic:false, \
    extra:[ \
-   {sprite:"block/magma",color:white}, " ", {sprite:"item/iron_ingot",color:white}, " ", {sprite:"item/suspicious_stew",color:white}, " ", {sprite:"item/string",color:white}," ", {sprite:"item/leather",color:white}," ", {sprite:"block/sand",color:white}," ", {sprite:"block/dispenser_front",color:white}," ", {sprite:"item/redstone",color:white},\
+   {sprite:"item/comparator",color:white}, " ", {sprite:"block/magma",color:white}, " ", {sprite:"item/iron_ingot",color:white}, " ", {sprite:"item/suspicious_stew",color:white}, " ", {sprite:"item/string",color:white}," ", {sprite:"item/leather",color:white}," ", {sprite:"block/sand",color:white}," ", {sprite:"block/dispenser_front",color:white}," ", {sprite:"item/redstone",color:white},\
    ] \
  }, \
 "",\
