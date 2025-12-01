@@ -1,7 +1,7 @@
 {
   "pack": {
-    "description": "§7Tech Firmament Unlocked! §f§lBy bluffcon",
-    "pack_format": 81,
+    "description": {"text":"","extra": [{"text":"[","color":"#c0c0c0"},{"text":"","extra":[{"text":"E","color":"#FED83D"},{"text":"N","color":"#FEC638"},{"text":"G","color":"#FDB432"},{"text":"I","color":"#FDA12C"},{"text":"N","color":"#FC8F27"},{"text":"E","color":"#FC7D21"}],"bold":true,"italic":false},{"text":"]","color":"#c0c0c0"}, {"text": " Redstone Lava Tech!", "color": "#fcfcfc"}, {"text": " By bluffcon", "color": "#949292"}]},
+    "pack_format": 88,
     "max_format": 88,
     "min_format": 81
   }
