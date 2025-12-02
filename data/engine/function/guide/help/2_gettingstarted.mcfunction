@@ -9,7 +9,7 @@ tellraw @s \
 {text: ""}
 
 tellraw @s \
-{text: "Next step would be obtaining your first whiteprint. To do that, put 8 pieces of paper in the crafting grid, an ink sac, as well as paper in the whiteprint slot.",color:white}
+{text: "Next step would be obtaining your first whiteprint. To do that, put 8 pieces of paper in the grid of the Magmatic Workbench, an ink sac, as well as paper in the whiteprint slot.",color:white}
 
 tellraw @s \
 {text: ""}
