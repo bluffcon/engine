@@ -1,7 +1,6 @@
 execute unless block ~ ~ ~ respawn_anchor run setblock ~ ~ ~ air replace
 
-execute if block ~ ~1 ~ lava[level=0] run scoreboard players add @s engine.lava 16
-execute if block ~ ~1 ~ lava[level=0] run setblock ~ ~1 ~ air
+execute if score @s engine.lava matches ..1024 if block ~ ~1 ~ lava[level=0] run function engine:blocks/get_lava/from_above
 
 title @p[distance=..2] actionbar {text:"block5 ",color:red,extra:[{text:"· ",color:white},{text:"Lava: ",color:gold},{"score":{objective:engine.lava,name:"@s"},color:red,bold:true},{text:" · ",color:white},{text:"Fails: ",color:gold},{"score":{objective:engine.block5.failcount,name:"@s"},color:red,bold:true}]}
 

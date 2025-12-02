@@ -1,7 +1,6 @@
 
+execute if score @s engine.lava matches ..512 if block ~ ~-1 ~ lava[level=0] run function engine:blocks/get_lava/from_below
 
-execute if block ~ ~-1 ~ lava[level=0] run scoreboard players add @s engine.lava 16
-execute if block ~ ~-1 ~ lava[level=0] run setblock ~ ~-1 ~ air
 
 title @p[distance=..2] actionbar {text:"Schematic Sequencer ",color:red,extra:[{text:"· ",color:white},{text:"Lava: ",color:gold},{"score":{objective:engine.lava,name:"@s"},color:red,bold:true}]}
 
