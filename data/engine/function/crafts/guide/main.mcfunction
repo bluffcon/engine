@@ -23,5 +23,8 @@ execute \
 if data storage engine:crafting whiteprint{components:{"minecraft:custom_data":{enginebp:"mechanical_assembly"}}} \
 run function engine:crafts/guide/mechanical_assembly
 
+execute \
+if data storage engine:crafting whiteprint{components:{"minecraft:custom_data":{enginebp:"drawing"}}} \
+run function engine:crafts/guide/drawing
 
 function engine:crafts/failed_guide
