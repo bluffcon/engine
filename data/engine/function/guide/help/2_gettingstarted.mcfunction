@@ -15,7 +15,7 @@ tellraw @s \
 {text: ""}
 
 tellraw @s \
-[{sprite:"item/paper"}," ",{sprite:"item/paper"}," ",{sprite:"item/paper"}, "  ", {text:"First Whiteprint"}]
+[{sprite:"item/paper"}," ",{sprite:"item/paper"}," ",{sprite:"item/paper"}, "  ", {text:"First Whiteprint (Magmatic Workbench)"}]
 tellraw @s \
 [{sprite:"item/paper"}," ",{sprite:"item/ink_sac"}," ",{sprite:"item/paper"}, "  ", {text:"Place them like this",color:gray}]
 tellraw @s \
