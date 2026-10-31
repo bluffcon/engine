@@ -24,5 +24,5 @@
 📖 Craft a **Guide** using a book and a lava bucket. Or just get a lava bucket, and let achievements guide you through the rest.
 
 ## Join the Discord! — 💬
-https://discord.gg/zkjyuGcguA
+https://discord.gg/wczBNd8qVE
  
